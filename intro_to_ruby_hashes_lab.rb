@@ -32,7 +32,7 @@ def my_hash_creator(key, value)
 
   hash = {
     :key => key,
-    :value => value
+  #  :value => value
    }
 
     return Hash.new { |hash, value| hash[key]}
