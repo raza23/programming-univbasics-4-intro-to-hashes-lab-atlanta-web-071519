@@ -35,7 +35,7 @@ def my_hash_creator(key, value)
   #  :value => value
    }
 
-    return Hash.new { |hash, value| hash[key]}
+  #  return Hash.new { |hash, value| hash[key]}
 
   end
 
