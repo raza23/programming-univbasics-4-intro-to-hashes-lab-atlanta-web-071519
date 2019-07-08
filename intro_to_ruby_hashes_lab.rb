@@ -31,7 +31,7 @@ def my_hash_creator(key, value)
 
 
   hash = {
-    :key => key,
+    key => value
   #  :value => value
    }
 
